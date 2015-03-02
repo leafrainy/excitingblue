@@ -1,0 +1,306 @@
+/*
+ * Template Name:ExcitingBlue 
+ * Description:蓝色为主调的CSS模版
+ * Author:叶雨梧桐
+ * Author Url:http://blog.gt520.com
+ * Sidebar Amount:1
+ * update:20131208
+*/
+body {background: #fff; color: #323232; text-align:center; font:13px/18px Arial,Helvetica,sans-serif; margin: 0px auto 0px; padding: 0px;background: #E8ECED;}
+#wrap {background: #E8ECED; width: 1100px; text-align:left; margin: 0px 0px 0px 150px; padding: 0px;}
+img{ border:none;}
+
+a:link, a:active, a:visited { text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+#top{position: fixed;top:0px;height:45px;width:100%;background:#1F1F1F;font-size:15px;z-index:999;}
+
+#nav {position: fixed;top:0px;height:45px;padding-left:170px;background:#1F1F1F;font-size:15px;z-index:999;}
+#nav ul{list-style-type:none;padding:0;}
+#nav li{float:left;margin:0px;padding:0px;}
+#nav a:link,a:visited{display:block;width:80px;font-weight:bold;color:white;text-align:center;text-decoration:none;}
+#nav a:hover,a:active{background-color:#FFFFFF;color:black;margin:0;padding:0;border-radius: 10px;}
+
+#header h1 {text-align:left;color:black; font-size: 30px; font-weight: bold; letter-spacing: 0px; margin: 10px 0px 3px 0px; padding: 45px 0px 0px 175px; font-family: Georgia, "Times New Roman", Times, serif; line-height:normal;}
+#header h1 a:link {color: #1F1F1F; text-decoration: none;}
+#header h1 a:active {color: #1F1F1F; text-decoration: none;}
+#header h1 a:visited {color: #1F1F1F; text-decoration: none;}
+#header h1 a:hover {color: #1F1F1F; text-decoration: none;}
+#header h3 {text-align:left;color: #525252; font-style: italic; font-size: 15px; font-weight: normal; margin: 0px 0px 0px 40px; padding: 10px 0px 10px 150px;}
+
+
+#blogertx{border:2px solid;border-color:#FFFFFF;height:128px;width:128px;position:relative;top:42px;left:195px;z-index:888;}
+
+#netmessage{color:white;padding:10px;;height:25px; width:500px;position:relative;left:300px;font-size:15px; font-weight:bold;}
+
+#pagenavi{text-align:right; font-size:14px}
+#pagenavi a{margin:10px 10px; padding:0px 3px;border:1px solid #999999; width:30px;height:30px;}
+#pagenavi a:link{text-decoration: none;}
+#pagenavi a:visited{ text-decoration: none;color:black; }
+#pagenavi a:hover{color:white;border:1px solid black; }
+#pagenavi span{font-size:16px; color:#999999;}
+
+#content {width: 1000px; margin: 10px 0px 0px 0px; padding: 5px 10px 10px 40px;}
+#content p {padding: 0px 0px 15px 0px; margin: 0px; line-height: 20px;}
+#content h1 {display:none;}
+#content h2 {color: #1F1F1F; font-size: 18px; font-weight:bold; padding: 0px 0px 0px 0px; margin: 25px 0px 10px 0px;}
+#content h2 a:link {color:#1F1F1F; text-decoration:none;}
+#content h2 a:active {color:#1F1F1F; text-decoration:none;}
+#content h2 a:visited {color:#1F1F1F; text-decoration:none;}
+#content h2 a:hover {color:#1F1F1F; text-decoration:underline;}
+#content h2.widgettitle {color: #444444; font-size: 12px; font-weight: bold; margin: 25px 0px 0px 0px; padding: 10px 0px 10px 0px;}
+#content h3 {color: red; font-size: 14px; font-weight: bold; margin: 15px 0px 0px 0px; padding: 8px 0px 8px 0px;}
+#article_content {width: 1000px; margin: 10px 0px 0px 0px; padding: 5px 10px 10px 10px;background:white;}
+#contentleft1{border-radius: 10px;background:white;float:left; width: 140px; margin: 22px 5px 0px 30px; padding: 0px 0px 20px 0px; border-left: 1px solid #E2DDDE; border-right: 1px solid #E2DDDE;}
+#t_content {width: 1000px; margin: 10px 0px 0px 0px; padding: 5px 10px 10px 10px;}
+#contentleft2 {float:left;width:650px; margin: 25px 0px 0px 0px; padding: 0px 20px 5px 20px;  border: 1px solid #E2DDDE;background:white;border-radius: 10px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;-khtml-border-radius: 5px;}
+blockquote {margin: 0px 0px 20px 0px; padding: 25px 5px 25px 20px; border-left: 5px solid #696969; border-right: 5px solid #696969;}
+#contentleft2 .date { font-size:12px;}
+#contentleft2 a{color:#0088DD;}
+#contentleft2 a:link{color:#0088DD;}
+#contentleft2 a:visited{color:#0088DD;}
+#contentleft2 a:hover{color:#0088DD;}
+#contentleft2 a:active{color:#0088DD;}
+#contentleft2 .att {color:#A97965; font-size:12px; margin:5px 0px 0px 0px;}
+#contentleft2 .tag {color:#A97965; font-size:12px; margin:0px 0px 0px 0px;}
+#contentleft2 .count { text-align:right; font-size:12px;color:red;}
+#contentleft2 .count a:visited{color:#0088DD;}
+#contentleft2 img{max-width:690px;}
+.article_info{font-size:12px;padding-left:10px; line-height:22px; color:#777}
+.article_info a{color:black;}
+img.alignright {float:right; border:none; margin:0px 0px 10px 10px;}
+img.alignleft {float:left; border:none; margin:0px 10px 10px 0px;}
+img.aligncenter {display: block; border:none; margin:10px auto 10px auto;}
+a img.alignright {float:right; border:none; margin:0px 0px 10px 10px;}
+a img.alignleft {float:left; border:none; margin:0px 10px 10px 0px;}
+a img.aligncenter {display: block; border:none; margin:10px auto 10px auto;}
+
+#sidebar {background:#E8ECED;float:left;width: 250px; margin: 0px; padding: 0px 0px 20px 5px;  font:12px/18px Verdana, Arial, Helvetica, sans-serif;overflow:hidden;}
+#sidebar ul { margin: 0px; padding: 0px;}
+#sidebar ul li {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 5px;}
+#sidebar ul li ul li { margin: 0px 0px 0px 0px; padding: 0px 0px 0px 5px;}
+#sidebar li {list-style-type:none;background:white;border-radius: 10px;-moz-border-radius: 5px;-webkit-border-radius: 5px;-o-border-radius: 5px;-khtml-border-radius: 5px;}
+#sidebar h3{background-color:#4491C4;height:25px;border-radius: 5px 5px 0 0;font-size:16px;text-align:left;color:white;padding:10px 0px 0px 20px;}
+#sidebar a:link{color:#0088DD;}
+#sidebar a:visited{color:#0088DD;}
+#sidebar a:hover{color:#0088DD;}
+#link a:link{color:#0088DD;}
+#link a:visited{color:#0088DD;}
+#link a:hover{color:#0088DD;}
+#link a:active{color:#0088DD;}
+#newcomment li a img{width:20px;height:20px;}
+/*存档，分类，友情链接*/
+#record,#blogsort,#link{overflow:hidden;}
+#record li ,#blogsort li ,#link li{float:left;display:block;width:120px;height:20px;overflow:hidden;}
+
+/*最新评论*/
+#newcomment {
+	}
+#newcomment {
+	list-style-type:none;
+ 	}
+#newcomment li {
+	line-height:22px; clear:both;
+	width:260px; 
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+#newcomment li img.avatar{
+	height:32px;
+	float:left;
+	padding:3px;
+	margin:4px 4px 0 0;
+	background:#fff;
+	border: 1px solid #ddd;
+	}
+
+#footerbar { padding: 10px 0px; width: 100%; text-align: center; overflow: hidden; border-top: 1px solid #E2DDDE;}
+#footerbar a:visited{color:#0088DD;}
+.footerbox {float:left; width: 31%; float: left; margin: 5px 0px 0px 0px; padding: 0px 10px 20px 10px;}
+.footerbox ul {list-style-type: none; margin: 0px; padding: 0px;}
+.footerbox ul li {background:transparent url("images/bullet.png") 0px 3px no-repeat; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 18px;}
+
+.nextlog{ display:block;margin:5px 0; font-size:12px;font-weight:bold;}
+.nextlog a:visited{color:#0088DD;}
+.echo_tag{float:right;margin:0px 10px 0px 0px; }
+#trackback_address{font-size:12px; color:#999}
+#trackback_address input{border:#f1f1f1 solid 1px; background-color:#fffdf1; padding:2px 8px; color:#999; font-size:11px}
+#trackback{font-size:12px; color:#333; line-height:16px; overflow:hidden; margin:5px 0; padding:0px 0px 3px 0px; border-bottom:1px #f5f5f5 solid}
+#contentleft #trackback li{margin:5px 0px; padding:0px; clear:both}
+ .comment-header{margin:15px 0px 0px; font-size:15px;}
+ .comment-post {clear:both}
+ .comment-post p{margin:5px 0px}
+ .comment-post .cancel-reply{float:right;font-size:12px;cursor:pointer; _cursor:hand;padding-right:10%}
+ .comment-post .cancel-reply:hover{text-decoration:underline}
+ .comment-post small{font-size:12px; color:#999}
+ .comment-post input{padding:5px 5px; border:1px #b6b6b6 solid; font-size:12px; color:#333; width:40%}
+ .comment-post #comment{ width:90%; border:1px #b6b6b6 solid; font-size:12px; color:#333}
+ .comment-post #comment_submit{background:url(images/em_button.gif) no-repeat; border:0; color:#000000; width:111px; height:29px; text-align:center; cursor:pointer; _cursor:hand}
+ .comment-post .input{width:100px}
+ .comment{margin:10px 0; padding:10px 0px; font-size:12px; border:1px #f7f7f7 solid;border-left:4px #C1C4C4 solid; overflow:hidden; color:#333; height:100%; zoom:1}
+ .comment span{color:#ff7a15;}
+ .comment .comment-time{color:#999999; display:inline; font-size:10px;}
+ .comment .avatar{float:left;margin:5px}
+ .comment .comment-info{float:left;width:90%; }
+ .comment .comment-info b a{color:#0088DD;}
+ .comment .comment-info b{color:red;}
+ .comment .comment-content{margin:8px 0px 0px 0px;}
+ .comment .comment-reply{float:right;font-size:12px;cursor:pointer; _cursor:hand;}
+ .comment .comment-reply:hover{text-decoration:underline}
+ .comment-children{width:95%;margin:auto;clear:both;border:none;padding:0}
+ .comment .comment-post{width:90%;margin:15px auto}
+ #goTocomment{float:right;font-weight:bold;font-size:20;}
+ #goTocomment a{color:red; }
+
+.calendartop{text-align:center; font-size:12px; margin-left:30px}
+.calendar{margin-bottom:10px;}
+.calendar td{font-size:11px; text-align:center; padding:1px 5px; line-height:1.6;}
+.calendar td a:link{color:#886353; text-decoration:none;}
+.calendar td a:hover{color:#886353; text-decoration:none}
+.day{background:url(images/bg_cal_today.gif)  no-repeat 2px 1px}
+.day2{font-weight:bold}
+.sun{color:#333; font-weight:bold}
+.week{color:#333}
+
+.rss{ margin:20px 0px;}
+
+.attachment{
+    margin: 0px 3px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+    background:url(images/att.png)  no-repeat 2px -1px;
+}
+
+#twitter li {border-bottom: dotted 1px;list-style:none;}
+#twitter li p {font-size: 10px;padding-left: 68px; text-align:right; padding:5px 0px 2px;}
+#twitter p {font-size: 12px;text-align:right;padding:5px 2px 2px 2px;}
+#twitter li small {font-size: 10px;padding: 0px 10px;}
+#twitter li .t_img{background:url(images/img.gif) no-repeat;padding: 0 7px;margin: 0 0 0 10px;}
+
+#tw .main_img{ border:1px #2772ae solid; float:left;}
+#tw .main_img img{ border:1px #fff solid}
+#tw .op{ float:left; height:18px;margin:6px 5px 3px;}
+#tw .top{ font-size:12px; text-align:right; border-bottom:1px #F7F7F7 solid; line-height:2;width:560px;}
+#tw .top a{ padding:0px 5px 0px 17px; background: url(images/t.gif) no-repeat}
+#tw ul{ margin:5px 0px 3px 200px; width:520px; line-height:1.8;padding:0px 0px 0px 20px;border-left:5px solid black;}
+#tw ul .li{ margin:10px 0px;padding:5px 5px 5px 10px ;border: #028E9B 1px solid;background:#028E9B;}
+#tw ul .li .sj{border-color: transparent #028E9B transparent transparent;border-style: solid;border-width: 10px 10px 10px 0px;width: 0;height: 0;position:absolute; left:417px;}
+#tw ul li{margin:0px 0px; padding:0;}
+#tw ul li .main_img{ margin-top:5px;}
+#tw ul li .post1{ float:left;font-size:13px; padding:0px;margin:0; width:470px; padding:0px 0px 0px 8px;}
+#tw ul li .post1 span{color:#886353; font-weight:bold;}
+#tw ul li{ clear:both; padding:0px; margin:0px;}
+#tw ul li .bttome {margin:3px 0;vertical-align:middle}
+#tw ul li .bttome .time{ float:left;line-height:14px;}
+#tw ul li .bttome .post{ float: right;font-size:12px;line-height:14px;margin:0;}
+#tw .time{ position:absolute;left:200px;font-size:20px ; font-weight:bold;color:#33CCCC;}
+#tw ul .r{ margin:5px 0px 0px 40px;color:#666666; border:0; padding:0px;}
+#tw ul .r li{padding:5px 3px 3px;border-bottom: #F7F7F7 1px solid; width:475px}
+#tw ul .r .num{ font-size:16px; font-weight:bold; color:#0079b7;padding:0px 5px; float:left; width:20px;}
+#tw ul .r .time{ padding:0px 5px;}
+#tw ul .r .name{ padding:0px 0px 0px 0px; font-size:12px; color:#336699;}
+#tw ul .r em a{ font-style:normal;}
+#tw ul .huifu{margin:5px 0px 0px 43px; background:#F5F5F5;border:#CCCCCC solid 1px;text-align:center;display:none;}
+#tw ul .huifu textarea{ margin:5px; width:460px; border:#CCCCCC solid 1px;overflow:auto;}
+#tw ul .huifu input{ margin:0px 5px;}
+#tw ul .huifu div{ text-align:left; padding:0px 5px; text-align:center}
+#tw ul .huifu .text{ width:60px;}
+#tw ul .button_p{background:url(images/weibe_button.gif) no-repeat; border:0;cursor:pointer; _cursor:hand; width:63px; height:25px;}
+#tw .tbutton{ font-size:12px;float:none; margin-bottom:3px;}
+#tw .tbutton input{ width:90px; border:#CCCCCC solid 1px; }
+#tw .tbutton .button_p{ background:url(images/weibe_button.gif) no-repeat; border:0;cursor:pointer; _cursor:hand; width:60px; height:25px;}
+#tw .tbutton .tinfo{ float:left; }
+#tw .msg{ clear:both}
+#tw li{list-style:none;}
+#tw ul .huifu textarea{background-color:#FFFFFF;}
+#tw ul .huifu input{background-color:#FFFFFF;}
+#tw ul li ul{ line-height:0;font-size:0;}
+#tw ul li ul li{ font-size:12px; line-height:22px;}
+#tw .top{width:650px;}
+#tw ul li .post1{ width:560px;}
+#tw ul{ width:610px;}
+#tw ul .r li{width:565px}
+#tw ul .huifu textarea{width:550px;}
+#tw ul li .bttome .post{ font-size:12px;line-height:14px;margin:0; text-align:right; float:none;clear:both; width:610px; background:0; border:0;}
+#tw ul li .bttome .time{ float:none; margin-top:-25px;}
+#tw p .t_img{background:url(images/img.gif) no-repeat;padding: 0 7px;margin: 0 0 0 10px;}
+/*底部 返回顶部*/
+#goTopBtn{ 
+background:url(images/go_to_top.gif) no-repeat;
+position: fixed;
+text-align: center;
+line-height: 30px;
+width: 47px;
+bottom: 35px;
+height: 47px;
+font-size: 12px;
+cursor: pointer;
+right: 80px;
+_position: absolute;
+_right: auto; 
+} 
+/*头部动画*/
+
+#topbg {background: #4491C4;width: 100%; min-height: 200px; height:80%; position: relative; display: block; overflow: hidden;}
+.shd {box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.13);	z-index: 0 !important}
+
+/*cloud*/
+.cloud {
+	display: block;	position: absolute;
+	left: 25%;top: 15%;
+	-webkit-animation-name: slide;
+	-webkit-animation-duration: 18s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;}
+	.cld {background: #CAF0FF;	border-radius: 100%;width: 60px;height: 60px;position: absolute;z-index: 1}
+	.cld.a {top: 20px;left: 0;width: 130px;height: 40px;}
+	.cld.b {top: -5px;left: 10px;}
+	.cld.c {top: -2px;left: 60px;}
+	.cld.d {top: -22px;left: 39px;}
+
+	.cloud_a {left: 62%;top: 25%;
+	-webkit-animation-name: cloud_a;
+	-webkit-animation-duration: 22s;
+	-webkit-transform: scale(1.3);}
+
+	.cloud_b {left: 50%;top: 40%;
+	-webkit-animation-name: cloud_b;
+	-webkit-animation-duration: 26s;
+	-webkit-transform: scale(1.8);}
+
+	.cloud_c {left: 37%;top: 40%;
+	-webkit-animation-name: cloud_c;
+	-webkit-animation-duration: 29s;
+	-webkit-transform: scale(.8);}
+
+	.cloud_d {left: 25%;top: 40%;
+	-webkit-animation-name: cloud_d;
+	-webkit-animation-duration: 24s;
+	-webkit-transform: scale(1.5);}
+
+	@-webkit-keyframes slide   {0%{left: 15%;}50% {left: 63%;}100% {left: 15%;}}
+	@-webkit-keyframes cloud_a {0%{left: 62%;}50% {left: 90%;}100% {left: 62%;}}
+	@-webkit-keyframes cloud_b {0%{left: 50%;}50% {left: 23%;}100% {left: 50%;}}
+	@-webkit-keyframes cloud_c {0%{left: 37%;}50% {left: 47%;}100% {left: 37%;}}
+	@-webkit-keyframes cloud_d {0%{left: 25%;}50% {left: 65%;}100% {left: 25%;}}
+
+
+/*airplane*/
+#airplane {
+	display: block;	position: absolute;	left: 40%;top: 10%;z-index: 3;
+	-webkit-animation-name: plane-fly;
+	-webkit-animation-duration: 10s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;}
+	.plane {background: #91D9FC;border-radius: 100%;width: 60px;height: 60px;position: absolute;z-index: 1;}
+	.plane.head  {top: 21px;left: 80px;width: 60px;height: 25px;border-radius: 100%;}
+	.plane.body  {top: 20px;left: 0;width: 130px;height: 26px;border-radius: 40% 30% 20% 50%;z-index: 1}
+	.plane.lwing {top: 7px;left: 60px;height: 21px;width: 30px;	-webkit-transform: skew(51deg,0deg);border-radius: 5px;	z-index: 0}
+	.plane.rwing {top: 32px;left: 57px;height: 27px;	width: 35px;border-radius: 5px;z-index: 1;	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.16);-webkit-transform: skew(-49deg,0deg);}
+	.plane.tale  {top: 15px;left: 10px;	width: 20px;height: 20px;border-radius: 2px;-webkit-transform: skew(35deg,-9deg);}
+	.plane.window{top: 4px;left: 102px;width: 7px; height: 7px; border-radius: 30%;background: #fff;border: 1px solid #CCC;}
+	.plane.window.a{left:90px}
+	.plane.window.b{left:78px}
+	.plane.window.c{left:66px}
+@-webkit-keyframes plane-fly {0% {left: -10%; -webkit-transform: scale(.4);} 50% {left: 110%; -webkit-transform: scale(1);} 51%{-webkit-transform: rotateY(180deg);} 100% {left: -10%; -webkit-transform: scale(1.4) rotateY(180deg); }}
